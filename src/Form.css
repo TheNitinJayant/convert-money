@@ -1,0 +1,39 @@
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    margin-top: 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    /* border: 2px solid red; */
+    background: #2F3C7E;
+    transition: all 1s ease-in-out;
+
+    color: wheat;
+}
+
+.Form:hover
+{
+    transform: scale(1.1);
+    
+}
+
+.Form select
+{
+    width: 75%;
+}
+
+#base-currency-value-container
+{
+    width: 75%;
+}
+
+
+
+#base-currency
+{
+    width: 20rem;
+}
